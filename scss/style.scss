@@ -1,4 +1,14 @@
+@import "header";
+@import "datos";
+@import "botones";
+@import "separadores-lineas";
+@import "imagenes-lineas";
+@import "footer";
+
+
 body{
     width: 100%;
-    background: rgb(210, 169, 214);
+    background-color: $bg-principal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
